@@ -8,12 +8,10 @@ Default styling for the style guide
 }
 
 body {
-
-	padding: 2rem;
+	padding: 2rem 2rem 0rem 2rem;
 	color:#666666;
 	font-family: 'Muli', sans-serif;
 	overflow-wrap: break-word;
-
 }
 
 .form-group label{
@@ -83,7 +81,70 @@ code {
     color:rgb(148,147,149);
 }
 
+/*BANNER*/
+.banner {
+  line-height: 20px;
+  text-align: left;
+  margin: 3rem 0rem;
+}
 
+.styleguide-banner {
+  background-color: rgb(240,240,240);
+  line-height: 20px;
+  padding: 15rem 5rem 10rem 8rem;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.about-section{
+	line-height: 20px;
+  text-align: left;
+	padding: 10rem 6rem;
+  margin: 3rem 0rem;
+}
+
+/*FOOTER*/
+.site-footer{
+  padding:2rem;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer h5{
+  color:#26272b;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a{
+  color:#737373;
+}
+.site-footer a:hover{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li{
+  display:block
+}
+.footer-links a{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+  color:#987248;
+  text-decoration:none;
+}
+.footer-links.inline li{
+  display:inline-block
+}
 
 
 /*
