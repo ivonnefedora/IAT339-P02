@@ -10,17 +10,32 @@
 </head>
 <body>
   <nav class="nav-style">
-    <img  src="assets/image/logo.png" class="logo" alt="logo"/>
+    <a href="index.html"><img  src="assets/image/logo.png" class="logo" alt="logo"/></a>
     <p class="width-adjust"></p>
-    <a href="index.html"  class="nav-button current-link">HOME</a>
-    <a href="product-listing.html" class="nav-button">COLLECTIONS</a>
-    <a href="product-listing.html" class="nav-button">FAVORITES</a>
-    <p class="width-adjust"></p>
-    <div class="search-field">
-      <img src="assets/image/search.png" class="search" alt="search"/>
-      <form> <input type="text" name="Search Field" value="Search"> </form>
-    </div>
-  </nav>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html"  class="nav-button current-link">HOME</a></li>
+      <li><a href="product-listing.html" class="nav-button">COLLECTIONS</a></li>
+      <li><a href="product-listing.html" class="nav-button">FAVORITES</a></li>
+    </ul>
+    <!-- <p class="width-adjust"></p> -->
+    <!-- <div class="search-field">
+    <img src="assets/image/search.png" class="search" alt="search"/>
+    <form> <input type="text" name="Search Field" value="Search"> </form>
+  </div> -->
+</nav>
+
+  <!-- <header class="header">
+    <a href="index.html"><img  src="assets/image/logo.png" class="logo" alt="logo"/></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="product-listing.html">COLLECTIONS</a></li>
+      <li><a href="product-listing.html">FAVORITES</a></li>
+    </ul>
+  </header> -->
 
   <div class="banner">
     <img src="assets/image/b1.png"  alt="rose perfume" style="width:100%"/>
@@ -81,7 +96,7 @@
         </div>
 
         <!-- Site footer -->
-        <hr>
+
         <footer class="site-footer">
           <div class="row">
             <div class="col-25">
